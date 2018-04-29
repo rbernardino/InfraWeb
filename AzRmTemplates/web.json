@@ -44,7 +44,7 @@
     "vmImageOffer": "WindowsServer",
     "vmSize": "Standard_B1s",
     "vmStorageAccountContainerName": "vhds",
-    "vm-subnet-name": "dsclab-vnet-subnet-1",
+    "vm-subnet-name": "web",
     "networkResource": "dscLabNetwork",
     "vmSubnetRef": "[resourceId( variables('networkResource'), 'Microsoft.Network/virtualNetworks', parameters('vnet-name') )]",
     "vmSubnet": "[concat(variables('vmSubnetRef'), '/subnets/', variables('vm-subnet-name'))]"
