@@ -5,7 +5,6 @@ Configuration WebServers2008
 
   Node $AllNodes.Where( { $_.Purpose -eq 'Web Server' -and $_.OS -eq '2008' }).NodeName
   {
-    # Add resource script to run Set-Svr2008DomainMember.ps1
 
     xComputer $NodeName
     {
