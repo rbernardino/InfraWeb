@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnet-name": {
+      "value": "dsclab-vnet"
+    },
+    "vmNamePrefix": {
+      "value": "web0"
+    },
+    "vmNameSuffix": {
+      "value": "dev"
+    },
+    "vmNicNameSuffix": {
+      "value": "-nic-0"
+    },
+    "vmAdminUserName": {
+      "value": "winadmin"
+    },
+    "vmWindowsOSVersion": {
+      "value": [ "2012-R2-Datacenter", "2008-R2-SP1" ]
+    },
+    "vmCount": {
+      "value": 2
+    },
+    "storageAccountName": {
+      "value": "webstoragestd"
+    },
+    "vmOSDiskNameSuffix": {
+      "value": "-OsDisk"
+    }
+  }
+}
