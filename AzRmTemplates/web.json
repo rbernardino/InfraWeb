@@ -43,7 +43,6 @@
     "vmImagePublisher": "MicrosoftWindowsServer",
     "vmImageOffer": "WindowsServer",
     "vmSize": "Standard_B1s",
-    "vmStorageAccountContainerName": "vhds",
     "vm-subnet-name": "onprem-web",
     "networkResource": "onPremNetwork",
     "vmSubnetRef": "[resourceId( variables('networkResource'), 'Microsoft.Network/virtualNetworks', parameters('vnet-name') )]",
