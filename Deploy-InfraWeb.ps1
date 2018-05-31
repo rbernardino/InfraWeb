@@ -2,8 +2,8 @@ break
 
 #region Deploy the web servers
   $location = 'Southeast Asia'
-  $resourceGroupName = 'dscLabWeb'
-  $resourceDeploymentName = 'dscLabWeb-deployment'
+  $resourceGroupName = 'onPremWeb'
+  $resourceDeploymentName = 'onPremWeb-deployment'
   $templateFile = '.\AzRmTemplates\web.json'
   $templateParameterFile = '.\AzRmTemplates\web.dev.parameters.json'
 
