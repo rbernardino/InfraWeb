@@ -18,7 +18,7 @@
       "value": "winadmin"
     },
     "vmWindowsOSVersion": {
-      "value": [ "2012-R2-Datacenter", "2008-R2-SP1" ]
+      "value": [ "2012-R2-Datacenter", "2012-R2-Datacenter" ]
     },
     "vmCount": {
       "value": 2
